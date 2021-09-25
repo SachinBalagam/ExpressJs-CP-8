@@ -1,0 +1,15 @@
+get http://localhost:3000/todos/9/
+###
+
+post http://localhost:3000/todos/ 
+Content-Type: application/json
+
+{
+  "id": 10,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TO DO"
+}
+###
+
+delete http://localhost:3000/todos/5/
